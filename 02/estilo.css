@@ -1,0 +1,27 @@
+/* * {
+    background: pink;
+    text-align: right;
+}  */
+/* (Se pone * cuando se le aplica a toda la página) */
+h1{
+    color: blueviolet;
+    font-size: 100px;
+    text-align: center;
+}
+.imagengrande{
+    width: 50%;
+    border-radius: 10px;
+}
+
+.imagenMediana{
+    width: 20%;
+    border-radius: 10px;
+}
+/* para referirme a una clase: es con .<clase>  */
+.imagenCcicha{
+width: 8px;
+border-radius: 10px;
+
+
+
+}

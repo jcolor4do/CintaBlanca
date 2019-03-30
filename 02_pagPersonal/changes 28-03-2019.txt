@@ -1,0 +1,4 @@
+middleware-core/middleware-core-ds/src/main/java/com/unixsycsapi/middleware/core/ds/seguimiento/ResponseATMDineroDAO.java
+middleware-core/middleware-core-api/src/main/java/com/unixsycsapi/middleware/core/api/ResponseATMDineroIService.java
+middleware-core/middleware-core-bs/src/main/java/com/unixsycsapi/middleware/core/bs/seguimiento/ResponseATMDineroServiceBean.java
+middleware-core/middleware-core-bs/src/main/java/com/unixsycsapi/middleware/core/bs/seguimiento/transformador/ResponseATMDineroTransformador.java

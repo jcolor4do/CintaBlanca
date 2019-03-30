@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    justify-content: center;
+    /* ocupa viwe per heigh */
+    height: 100vh;
+    /* lo centra a partir de la etiqueta height */
+    align-items: center;
+}
+/* *{
+background: 
+} */
+
+.caja_padre{
+    border: 2px solid red;
+    /* height: 50%; */
+    width: 100%;
+    height: 100%;
+    /* quita el display por defecto */
+    display: flex;
+    /* lo mueve en eje x */
+    justify-content: space-around;
+    
+    /* flex-start, flex-end, center */
+    /* flex-end (lo pone en lado derecho */
+    /* flex-star (lo pone en lado izquierdo)*/
+    /* space-around (deja margen) */
+    /* space-between (separa los elementos con el mismo espacio) */
+
+
+    /* se mueve en eje y  todo el elemento*/
+    align-items: center;
+    /* puede adquirir los mismos parámetros que justify content */
+    flex-direction: column;
+    /* column (lo coloca en columna) */
+    /* column-reverse (lo coloca en columna pero sentido de arriba hacia abajo)*/
+    /* row (lo coloca en un guion) */
+    /* row-reverse (lo coloca en guion con sentido contrario)*/
+
+
+
+    
+}
+.caja_hijo_1{
+    border: 5px ridge  rgb(72, 107, 117);
+    width: 30%;
+    height: 32%;
+    /* sin display:flex no puede alinearse. */
+    display: flex;
+    /* izq-derecha */
+    justify-content: center;
+    /* arriba-abajo */
+    align-items: center;
+}
+/* el nieto ahora se comporta como le ordena el hijo */
+.caja_nieto_1{
+    border: 4px solid #4e21213b;
+    width: 40%;
+    height: 60%;
+    border-radius: 50% ;
+
+
+}
+.hijo_adoptado{
+    border: 2px solid purple;
+    
+    align-self: flex-end;
+
+}

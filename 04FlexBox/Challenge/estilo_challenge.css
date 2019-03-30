@@ -1,0 +1,32 @@
+
+body{
+    display: flex;
+    justify-content: space-around;  
+    height: 500px;
+    align-items: center;
+}
+.caja_padre{
+    border: 5px outset   black;
+    background-color: rgb(197, 165, 142);
+    /* height: 40%; */
+    width: 400px;
+    height: 400px;
+    /* quita el display por defecto */
+    display: flex;
+    /* lo mueve en eje x */
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.caja_hijo{
+    border: 4px dotted rgba(0, 0, 0, 0.589);
+    width: 11%;
+    height: 11%;
+}
+/* padre revelde para acomidar a sus hijos en fila */
+.a{
+    flex-direction: row;
+}
+
+

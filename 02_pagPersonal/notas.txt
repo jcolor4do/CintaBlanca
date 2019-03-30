@@ -1,0 +1,7 @@
+index
+css
+nombre h1
+h2 ocupación
+imagen aleatoria
+parrafo: descripcion de ti mismo
+link de redes sociales (tuyas)
