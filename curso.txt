@@ -1,0 +1,8 @@
+﻿componentes
+
+se ocupa angular o react para que se quede estático los componentes (ej. navbar)
+
+
+para que sea principal con eje "z"
+
+evitar usar margin y utilizar padding en las cajas contenedoras
