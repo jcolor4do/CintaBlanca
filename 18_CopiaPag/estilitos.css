@@ -1,0 +1,61 @@
+.nav_var{  
+    height: 105px;
+    opacity: 0.8;
+    color: white;
+}
+#grad4 {
+    background-image: linear-gradient(rgba(35, 30, 109, 0.404), rgb(38, 38, 93));
+    height: 100vh;
+  }
+
+.icono{
+    
+        font-size: 85px;      
+        display: flex;
+        height: 90px;
+        margin-left: 66px;
+        width: 90px;
+}
+.marca {
+    font-size: 2rem;
+    margin-right: auto;
+color: white;
+    
+}
+.img_sesion{
+    height: 46px;
+    width: 48px;
+    border-radius: 62%;
+    
+}
+
+.menu_derecha{
+    /* border: solid 1px black; */
+    width: 33%;
+    display:flex;
+    color: white;
+    justify-content: space-between;
+    margin-right: 133px;
+}
+.perfil{
+    display:flex;
+    justify-content: space-between;
+    margin-right: 10px
+}
+
+h2{
+    border: 1px solid red;
+    text-align: center
+}
+.hov{
+    color: red !important;
+}
+.hov:hover{
+    color: rgb(251, 255, 1) !important;
+}
+/* oculatar elementos */
+@media(max-width: 1000px){
+.titulo{
+    display: none;
+}
+}
